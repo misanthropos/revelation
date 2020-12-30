@@ -9,9 +9,10 @@ i18n = import('i18n')
 python = import('python')
 
 # Module objects
-py_installation = python.find_installation('python3',
-  modules: ['Cryptodome',
-            'pwquality'] )
+py_installation = python.find_installation('python3')
+#,
+#  modules: ['Crypto',
+#            'pwquality'] )
 
 # Dependencies
 dependency('gobject-introspection-1.0', version: '>= 1.35.0')

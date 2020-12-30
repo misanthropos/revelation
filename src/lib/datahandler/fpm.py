@@ -29,9 +29,9 @@ from revelation import data, entry, util
 import math, random, string, xml.dom.minidom
 
 from xml.parsers.expat import ExpatError
-from Cryptodome.Cipher import Blowfish
-from Cryptodome.Hash import MD5
-import Cryptodome.Random as Random
+from Crypto.Cipher import Blowfish
+from Crypto.Hash import MD5
+import Crypto.Random as Random
 
 
 class FPM(base.DataHandler):

@@ -28,15 +28,15 @@ from . import base
 from revelation import config, data, entry, util
 from revelation.bundle import luks
 
-from Cryptodome.Protocol.KDF import PBKDF2
-from Cryptodome.Hash import SHA1
-from Cryptodome.Random import get_random_bytes
+from Crypto.Protocol.KDF import PBKDF2
+from Crypto.Hash import SHA1
+from Crypto.Random import get_random_bytes
 
 import os, re, struct, xml.dom.minidom, zlib
 from io import BytesIO
 
 from xml.parsers.expat import ExpatError
-from Cryptodome.Cipher import AES
+from Crypto.Cipher import AES
 
 import hashlib
 

@@ -40,7 +40,7 @@ http://www.gnu.org/copyleft/gpl.html
 
 import hashlib, string, math, struct
 
-import Cryptodome.Random as Random
+import Crypto.Random as Random
 
 def _xor(a, b):
     """Internal function to performs XOR on two strings a and b"""

@@ -27,8 +27,8 @@ from . import base
 from revelation import data, entry
 
 import locale, re
-from Cryptodome.Cipher import Blowfish
-from Cryptodome.Hash import SHA
+from Crypto.Cipher import Blowfish
+from Crypto.Hash import SHA
 
 
 IV  = b"\x05\x17\x01\x7b\x0c\x03\x36\x5e"

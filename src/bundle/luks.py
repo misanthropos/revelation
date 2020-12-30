@@ -63,8 +63,8 @@ http://www.gnu.org/copyleft/gpl.html
 
 import os, math, struct, stat, hashlib
 
-import Cryptodome.Random as Random
-from Cryptodome.Cipher import AES
+import Crypto.Random as Random
+from Crypto.Cipher import AES
 from . import PBKDFv2, AfSplitter
 
 class LuksError(Exception):

@@ -27,8 +27,8 @@ from . import base
 from revelation import data, entry
 
 import locale, re, struct
-from Cryptodome.Cipher import Blowfish
-import Cryptodome.Random as Random
+from Crypto.Cipher import Blowfish
+import Crypto.Random as Random
 
 
 FIELDTYPE_NAME      = 0x00
